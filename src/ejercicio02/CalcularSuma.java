@@ -11,11 +11,14 @@ public class CalcularSuma {
         SUMA = SUMA + X;
         X = X + (Y*Y);
         SUMA = SUMA + (X/Y);
-        return (this.SUMA);
+        return(SUMA);
     }
+
 
     public static void main(String[] args) {
         CalcularSuma ejercicio = new CalcularSuma();
         System.out.println("La suma es: " + ejercicio.calcularSuma());
+        System.out.println("El valor de x es : " + ejercicio.X);
+        System.out.println("El valor de y es : " + ejercicio.Y);
     }
 }
