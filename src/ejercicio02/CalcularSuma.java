@@ -1,5 +1,4 @@
 package ejercicio02;
-
 public class CalcularSuma {
     
     // atributos
